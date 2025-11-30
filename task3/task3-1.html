@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<form>
+<label for="name">(Name Text):</label>
+<input type="text"placeholder="your name"id="name" required>
+<hr>
+<label for="email">Email:</label>
+<input type="email"placeholder="your email"id="email" required>
+<label for="pass">password:</label>
+<input type="text"placeholder="your pass"id="pass" required>
+<hr>
+<label for="col">Favorite color:</label>
+<input type="color"placeholder="your color"id="col" required>
+<hr>
+<label for="ran">volume(Range 0-100):</label>
+<input type="range"step="30"min="0" max="100" id="ran" required>
+
+<label><br><br>select your favorite pet: </label>
+<br>
+<input type="radio"name="animal"value="cat" id="cat">
+<label for="cat">cat<br></label>
+<input type="radio"name="animal"value="dog" id="dog">
+<label for="dog">dog<br></label>
+<input type="radio"name="animal"value="bird" id="bird">
+<label for="bird">bird</label>
+<hr>
+
+<label for="check">inserts(check all that apply): </label>
+<br>
+<input type="checkbox"name="hoppy"value="coding" id="coding">
+<label for="coding">coding<br></label>
+<input type="checkbox"name="hoppy"value="music" id="music">
+<label for="music">music<br></label>
+<input type="checkbox"name="hoppy"value="travel" id="travel">
+<label for="travel">Travel<br></label>
+<hr>
+<label for="country">choose a county: </label>
+<select name="country" id="country">
+<option value="uni">United kingdom</option>
+<option value="egy">Egypt</option>
+<option value="turk">Turkey</option>
+</select>
+<hr> 
+<h2>Your comments(text area):</h2>
+<textarea cols="40" rows="7" placeholder="comment"></textarea>
+<hr>
+<label for="fil">Uploud a file:</label>
+<input type="file" id="fil">
+<hr>
+<label for="ser">search this site:</label>
+<input type="search" id="ser">
+
+<label for="url">your website URL:</label>
+<input type="url" id="url">
+<hr>
+<label for="date">Date:</label>
+<input type="date"id="date">
+<label for="month">Month:</label>
+<input type="month"id="month">
+<label for="time">Time:</label>
+<input type="time" id="time">
+<hr>
+<label for="browser">Choose your browser:</label>
+<input list="bowser" id="browser" name="browser">
+
+<datalist id="bowser">
+<option  value="google chrom">
+<option  value="microsoft Edgr">
+<option  value="mozilla firefox">
+</datalist>
+<hr>
+<input type="submit" value="submit form">
+<input type="reset" value="clear form">
+</head>
+</form>
+</body>
+</html>
