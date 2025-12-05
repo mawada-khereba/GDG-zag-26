@@ -1,0 +1,61 @@
+.header{
+ background-color: rgb(0, 189, 237);
+ text-align:center;
+ color:white;
+}
+.front{
+margin-top :2px
+font-size:10px; 
+}
+.content{
+ width:90%;
+ margin: 25px;  
+ overflow: auto; 
+}
+.content h2{
+ color: rgb(2, 84, 119);
+}
+.skills ul{
+font-size: 15px;
+}
+
+.skills h2{
+ color: rgb(2, 84, 119);
+}
+.projects h2{
+ color: rgb(2, 84, 119);  
+  text-indent:50px;  
+}
+.box1,.box2,.box3{
+     text-align:center;
+ display:inline-block;
+ margin-right:50px;
+ font-size: 15px;
+ white-space: pre-line;
+}
+.box1 h3{
+  color: rgb(2, 84, 119);   
+  text-decoration: underline; 
+}
+.box2 h3{
+  color: rgb(2, 84, 119);  
+   text-decoration: underline;   
+}
+.box3 h3{
+  color: rgb(2, 84, 119);    
+   text-decoration: underline; 
+}
+.works h3{
+  display:inline-block;
+background-color: rgba(0, 255, 242, 0.879);
+color:white    
+}
+.works h2{
+   color: rgb(2, 84, 119);  
+}
+.foot{
+
+  background-color: rgb(0, 189, 237);
+ text-align:center;
+ color:white;   
+}
